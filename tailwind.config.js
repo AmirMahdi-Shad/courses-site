@@ -12,7 +12,14 @@ module.exports = {
     extend: {
       colors:{
         primary:{
-          50:"#2c1f4a"
+          50:"#686089",
+          100:"#2c1f4a"
+        },
+        cart:{
+          50:"#381d74"
+        },
+        circle:{
+          50:"#2f2b6e"
         }
       }
     },
