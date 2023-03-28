@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 
-import women from "./women.svg";
-import YellowStar from "./yellow-star.svg";
+import women from "../../public/assets/image/women/women.svg";
+import YellowStar from "../../public/assets/image/women/yellow-star.svg";
 
-import instructor from "./instructor.svg";
-import student from "./student.svg";
-import video from "./video.svg";
+import instructor from "../../public/assets/image/women/instructor.svg";
+import student from "../../public/assets/image/women/student.svg";
+import video from "../../public/assets/image/women/video.svg";
 
 
 

@@ -1,16 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import direct from "./direct.svg";
+import direct from "../../public/assets/image/categories/direct.svg";
 
-import Pen from "./pen.svg";
-import Development from "./development.svg";
-import Professional from "./paper.svg";
-import Photography from "./img_box.svg";
-import Database from "./database.svg";
-import Business from "./business.svg";
-import Chart from "./chart_pin.svg";
-import Music from "./music.svg";
+import Pen from "../../public/assets/image/categories/pen.svg";
+import Development from "../../public/assets/image/categories/development.svg";
+import Professional from "../../public/assets/image/categories/paper.svg";
+import Photography from "../../public/assets/image/categories/img_box.svg";
+import Database from "../../public/assets/image/categories/database.svg";
+import Business from "../../public/assets/image/categories/business.svg";
+import Chart from "../../public/assets/image/categories/chart_pin.svg";
+import Music from "../../public/assets/image/categories/music.svg";
 
 
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import DotFrames from "./dot_frame.svg"
+import DotFrames from "../../public/assets/image/footer-join-cart/dot_frame.svg"
 
 export default function FooterJoinCart(){
     return (<div id="footer-join-carts" className="bg-[#37265D6E] py-[5.2vw] px-[15.62vw] relative">
