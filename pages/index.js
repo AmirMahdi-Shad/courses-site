@@ -1,6 +1,8 @@
 import HeroSection from "@/components/HeroSection/HeroSection"
 import Categories from "@/components/Categories/Categories"
 import WomenSection from "@/components/WomenSection/WomenSection"
+
+import FooterJoinCart from "@/components/FooterJoinCart/FooterJoinCart"
 export default function Home() {
   return (
     <>
@@ -10,6 +12,8 @@ export default function Home() {
           <HeroSection />
           <Categories />
           <WomenSection />
+        
+          <FooterJoinCart/>
         </section>
         </div>
 

@@ -14,7 +14,7 @@ export default function FooterJoinCart(){
         <div className="flex gap-[8.75vw] w-full">
             <div id="inavation-text" className="w-[39.68vw]">
                 <h3 className="text-[3.6vw] font-caladea font-[700] leading-[4.27vw]">
-                    <span className="text-[#fff]">Join our</span> <span className="text-[#BDA0FF]">world's largest</span> <span className="text-[#fff]">learning platform today</span>
+                    <span className="text-[#fff]">Join our</span> <span className="text-[#BDA0FF]">worlds largest</span> <span className="text-[#fff]">learning platform today</span>
                 </h3>
                 <p className="text-[1.25vw] mt-[3vw] font-[400] font-inter text-white ">Start learning by registering and get 30 days free trail</p>
             </div>
