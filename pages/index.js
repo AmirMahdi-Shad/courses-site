@@ -1,10 +1,14 @@
-import Categories from "@/components/Categories/Categories";
-import FooterJoinCart from "@/components/FooterJoinCart/FooterJoinCart";
-import WomenSection from "@/components/WomenSection/WomenSection";
-
 
 
 export default function Home() {
+  return (
+    <>
+      <div>
+        {/* Hero Section */}
+        <section className='container w-full px-[7.8vw] py-[2.5vw]'>
+          <HeroSection />
+        </section>
+
 
   return (<>
   <h4>jjjj</h4>
@@ -17,6 +21,7 @@ export default function Home() {
     <FooterJoinCart />
   </div>
   </>
+
 
   );
 }
