@@ -20,7 +20,7 @@ module.exports = {
         },
         circle:{
           50:"#2f2b6e"
-        }
+        },
       },
       fontFamily:{
         caladea:"'Caladea',serief",
