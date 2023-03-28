@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CountUp from "react-countup";
+
 
 import women from "./women.svg";
 import YellowStar from "./yellow-star.svg";
@@ -11,7 +11,9 @@ import video from "./video.svg";
 
 
 export default function WomenSection(){
-    return (<div className="bg-[#37265D6E] w-full px-[7.8vw] py-[5.6vw] relative">
+    return (
+    
+    <div className="bg-[#37265D6E] w-full px-[7.8vw] py-[5.6vw] relative">
         <div className="absolute w-[3.8vw] h-[3.8vw] top-[-1.24vw] right-[7.3vw]" >
             <Image src={YellowStar.src} fill alt={'yellow star'}  />
         </div>
@@ -53,9 +55,7 @@ export default function WomenSection(){
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+  )}
 
 
 function Item({ icon, label, labelText }) {
@@ -77,15 +77,4 @@ function Item({ icon, label, labelText }) {
 }
 
 
-function Item({icon,label,labelText}){
-    return (<div className="w-[33.33%] h-full flex gap-[1.25vw]">
-        <div className="h-[4.3vw] w-[4.3vw] p-[1.04vw] rounded-full bg-[linear-gradient(180deg,_#A582F7_0%,_#7747EC_100%)] leading-[2vw]">
-            <img src={icon.src} className="w-full h-full" />
-        </div>
-        <div className="py-[1px]">
-            <div className="font-[700] text-[1.6vw] text-white font-caladea">{label}</div>
-            <div className="mt-[0.4vw] leading-[1.4vw] text-[1.04vw] text-[#B0B0D1] font-inter">{labelText}</div>
-        </div>
 
-    </div>)
-}

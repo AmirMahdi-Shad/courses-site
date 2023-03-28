@@ -17,10 +17,10 @@ import Music from "./music.svg";
 const categoriesList = [
     {title:'Design', icon:Pen , href:'/categoty/href',  },
     {title:'Development', icon:Development , href:'/categoty/href',  },
-    {title:'Professional Dev.', icon:Professional , href:'/categoty/href',  },
+    {title:'Professional ', icon:Professional , href:'/categoty/href',  },
     {title:'Photography', icon:Photography , href:'/categoty/href',  },
 
-    {title:'Data Science', icon:Database , href:'/categoty/href',  },
+    {title:'Data ', icon:Database , href:'/categoty/href',  },
     {title:'Business', icon:Business , href:'/categoty/href',  },
     {title:'Marketing', icon:Chart , href:'/categoty/href',  },
     {title:'Music', icon:Music , href:'/categoty/href',  },
@@ -28,7 +28,7 @@ const categoriesList = [
 ];
 
 export default function Categories(){
-    return (<div id="categories-links" className="pt-[5.9vw] pb-[8.3vw] px-[7.91vw] ">
+    return (<div id="categories-links" className="pt-[5.9vw] pb-[8.3vw] mt-44 px-[7.91vw] ">
         <div className="flex flex-wrap ">
             {categoriesList.map((category,index)=><CategoryItem key={index} category={category} />)}
         </div>

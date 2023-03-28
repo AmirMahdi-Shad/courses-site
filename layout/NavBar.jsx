@@ -23,7 +23,7 @@ const NavBar = () => {
         <ul className='flex items-center justify-around  w-full'>
           {["Home", "About", "Course", "Blog", "Contact"].map((item, index) => {
             return (
-              <li key={index} className='cursor-pointer '>
+              <li key={index} className='cursor-pointer text-white '>
                 <button>{item}</button>
               </li>
             );

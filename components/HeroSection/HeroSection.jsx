@@ -17,7 +17,7 @@ const HeroSection = () => {
         <input
           type='text'
           placeholder='Want to learn?'
-          className=' flex items-center justify-between w-[986px] h-[99px] text-2xl rounded-full bg-white p-4 px-14 text-primary-100'
+          className=' flex items-center justify-between w-[850px] h-[99px] text-2xl rounded-full bg-white p-4 px-14 text-primary-100'
         />
         <Image
           src={`/images/search.png`}
@@ -27,7 +27,7 @@ const HeroSection = () => {
           alt=''
         />
 
-        <button className='px-14 py-7 bg-[#7F56D9] rounded-full text-xl absolute top-2 right-2'>
+        <button className='px-14 py-7 bg-[#7F56D9] rounded-full text-xl absolute top-2 right-36'>
           Explore
         </button>
       </form>
@@ -49,8 +49,8 @@ const HeroSection = () => {
       <Image
         src='/images/heroicon.png'
         className='absolute w-[609.23px] h-[812.94px] left-[57.08%] right-[11.19%] top-[16%] bottom-[84.65%]'
-        width='1000'
-        height='1000'
+        width='820'
+        height='820'
         alt=''
       />
     </>

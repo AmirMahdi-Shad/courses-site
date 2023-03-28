@@ -27,7 +27,6 @@ module.exports = {
       fontFamily: {
         caladea: "'Caladea',serief",
         inter: "'Inter',sans-serief",
-=======
         circle:{
           50:"#2f2b6e"
         },
