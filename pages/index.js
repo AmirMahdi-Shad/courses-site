@@ -1,3 +1,6 @@
+import Categories from "@/components/Categories/Categories";
+import FooterJoinCart from "@/components/FooterJoinCart/FooterJoinCart";
+import WomenSection from "@/components/WomenSection/WomenSection";
 
 
 
@@ -6,7 +9,12 @@ export default function Home() {
   return (<>
   <h4>jjjj</h4>
   <div className="bg-[#2C1F4A]">
+    <Categories />
     <WomenSection />
+    <div className="h-[400px]">
+
+    </div>
+    <FooterJoinCart />
   </div>
   </>
 
