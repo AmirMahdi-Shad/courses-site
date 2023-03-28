@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import Categories from "@/components/Categories/Categories";
 import FooterJoinCart from "@/components/FooterJoinCart/FooterJoinCart";
 import WomenSection from "@/components/WomenSection/WomenSection";
-=======
->>>>>>> 99296322df7757304e2498739b36e94de07ec1d7
 
 
 
