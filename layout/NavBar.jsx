@@ -51,7 +51,7 @@ const NavBar = () => {
       />
       <Image
         src='/images/Ellipse1198.png'
-        className='absolute w-[602px] h-[602px] left-[1511px] top-[133px] ellipse'
+        className='absolute w-[31.35vw] h-[31.35vw] left-[78.69vw] top-[6.92vw] ellipse'
         width='50'
         height='50'
         alt=''
