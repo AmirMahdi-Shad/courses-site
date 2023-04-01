@@ -6,7 +6,14 @@ const HeroSection = () => {
       <div className='w-[56.43vw]'>
         <h3 className='text-[3.6vw] mt-[1.8vw] font-caladea font-[700] w-2/3'>
           <span className='text-[#BDA0FF]'>Best courses </span>
-          <span className='text-[#fff]'>are waiting to enrich your skill</span>
+          <span className='text-[#fff] '>
+            are waiting to enrich your skill
+            <span className='absolute left-[20vw]  bottom-1/2 flex gap-6'>
+              <Image src='/images/Star.png' width='50' height='50' alt='' />
+              <Image src='/images/Star.png' width='50' height='50' alt='' />
+              <Image src='/images/Star.png' width='50' height='50' alt='' />
+            </span>
+          </span>
         </h3>
         <p className='text-[#B0B0D1] text-[1.1vw] font-inter font-[500] leading-[2vw] mt-[3.17vw] w-2/3'>
           Provides you with the latest online learning system and material that
