@@ -37,21 +37,21 @@ const NavBar = () => {
       </nav>
       <Image
         src='/images/Frame.png'
-        className='absolute left-[474px] -top-6 '
+        className='absolute left-[24.68vw] -top-6 '
         width='80'
         height='80'
         alt=''
       />
       <Image
         src='/images/Ellipse1199.png'
-        className='absolute w-[426px] h-[426px] -left-[78px] -top-[126px] ellipse'
+        className='absolute w-[24.68vw] h-[24.68vw] -left-[4.06vw] -top-[6.56vw] ellipse'
         width='50'
         height='50'
         alt=''
       />
       <Image
         src='/images/Ellipse1198.png'
-        className='absolute w-[602px] h-[602px] left-[1511px] top-[133px] ellipse'
+        className='absolute w-[31.35vw] h-[31.35vw] left-[78.69vw] top-[6.92vw] ellipse'
         width='50'
         height='50'
         alt=''
