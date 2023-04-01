@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CountUp from "react-countup";
+import CountUp from 'react-countup';
 
 export default function WomenSection(){
     return (
