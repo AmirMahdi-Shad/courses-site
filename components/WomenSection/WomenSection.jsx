@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CountUp from "react-countup";
 
 export default function WomenSection(){
     return (
@@ -29,7 +30,7 @@ export default function WomenSection(){
 
 
 
-function Item({ icon, label, labelText }) {
+function Item({ icon, label, labelText ,appendPlus}) {
   return (
     <div className='w-[33.33%] h-full flex gap-[1.25vw]'>
       <div className='h-[4.3vw] w-[4.3vw] p-[1.04vw] rounded-full bg-[linear-gradient(180deg,_#A582F7_0%,_#7747EC_100%)] leading-[2vw]'>
@@ -37,7 +38,8 @@ function Item({ icon, label, labelText }) {
       </div>
       <div className='py-[1px]'>
         <div className='font-[700] text-[1.6vw] text-white font-caladea'>
-          {label}
+          <span><CountUp end={label} duration={5} enableScrollSpy={true} scrollSpyOnce={true} /></span>
+          <span>{appendPlus?'+':''}</span>
         </div>
         <div className='mt-[0.4vw] leading-[1.4vw] text-[1.04vw] text-[#B0B0D1] font-inter'>
           {labelText}
