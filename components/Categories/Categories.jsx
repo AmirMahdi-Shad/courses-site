@@ -1,29 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import direct from "./direct.svg";
-
-import Pen from "./pen.svg";
-import Development from "./development.svg";
-import Professional from "./paper.svg";
-import Photography from "./img_box.svg";
-import Database from "./database.svg";
-import Business from "./business.svg";
-import Chart from "./chart_pin.svg";
-import Music from "./music.svg";
-
-
-
 const categoriesList = [
-    {title:'Design', icon:Pen , href:'/categoty/href',  },
-    {title:'Development', icon:Development , href:'/categoty/href',  },
-    {title:'Professional ', icon:Professional , href:'/categoty/href',  },
-    {title:'Photography', icon:Photography , href:'/categoty/href',  },
+    {title:'Design', icon:'/assets/image/categories/pen.svg' , href:'/categoty/href',  },
+    {title:'Development', icon:'/assets/image/categories/development.svg' , href:'/categoty/href',  },
+    {title:'Professional ', icon:'/assets/image/categories/paper.svg' , href:'/categoty/href',  },
+    {title:'Photography', icon:'/assets/image/categories/img_box.svg' , href:'/categoty/href',  },
 
-    {title:'Data ', icon:Database , href:'/categoty/href',  },
-    {title:'Business', icon:Business , href:'/categoty/href',  },
-    {title:'Marketing', icon:Chart , href:'/categoty/href',  },
-    {title:'Music', icon:Music , href:'/categoty/href',  },
+    {title:'Data ', icon:'/assets/image/categories/database.svg' , href:'/categoty/href',  },
+    {title:'Business', icon:'/assets/image/categories/business.svg' , href:'/categoty/href',  },
+    {title:'Marketing', icon:'/assets/image/categories/chart_pin.svg' , href:'/categoty/href',  },
+    {title:'Music', icon:'/assets/image/categories/music.svg' , href:'/categoty/href',  },
 
 ];
 
@@ -42,13 +29,13 @@ function CategoryItem({category}){
                 <div className="w-full h-full flex">
                     <div className="w-[2.76vw] h-[2.76vw] p-[0.44vw] ">
                         <div className="relative w-full h-full">
-                            <Image fill src={category.icon.src} alt={category.title} />
+                            <Image fill src={category.icon} alt={category.title} />
                         </div>
                     </div>
                     <span className="block leading-[2.76vw] h-[2.76] px-[0.7vw] text-white font-inter font-[500] flex-1 text-[1.14vw]">{category.title}</span>
                     <div className="w-[2.76vw] h-[2.76vw] p-[0.44vw] bg-[#7F56D9] rounded-[0.26vw]">
                         <div className="relative w-full h-full">
-                            <Image fill src={direct.src} alt={category.title} />
+                            <Image fill src={'/assets/image/categories/direct.svg'} alt={category.title} />
                         </div>
                     </div>
 
