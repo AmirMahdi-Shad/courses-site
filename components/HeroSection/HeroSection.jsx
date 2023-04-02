@@ -8,7 +8,7 @@ const HeroSection = () => {
           <span className='text-[#BDA0FF]'>Best courses </span>
           <span className='text-[#fff] '>
             are waiting to enrich your skill
-            <span className='absolute left-[20vw]  bottom-[45%] flex gap-6'>
+            <span className='absolute left-[20vw]  bottom-[24.5vw] flex gap-6'>
               <Image src='/images/Star.png' width='50' height='50' alt='' />
               <Image src='/images/Star.png' width='50' height='50' alt='' />
               <Image src='/images/Star.png' width='50' height='50' alt='' />
@@ -24,17 +24,17 @@ const HeroSection = () => {
         <input
           type='text'
           placeholder='Want to learn?'
-          className=' flex items-center justify-between w-[44.27vw] h-[5.15vw] text-2xl rounded-full bg-white p-4 px-14 text-primary-100'
+          className=' flex items-center justify-between w-[44.27vw] h-[5.15vw] text-[1.25vw] rounded-full bg-white p-[0.83vw] px-[2.916vw] text-primary-100'
         />
         <Image
           src={`/images/search.png`}
           width='30'
           height='30'
-          className='absolute left-0 top-5 mx-4'
+          className='absolute left-0 top-[1.75vw] mx-[0.83vw]'
           alt=''
         />
 
-        <button className='px-10 py-3 bg-[#7F56D9] rounded-full text-xl absolute top-2 right-28'>
+        <button className='px-[2.083vw] py-[1.4vw] bg-[#7F56D9] rounded-full text-[1.04vw] absolute top-[0.41vw] right-[7.6vw]'>
           Explore
         </button>
       </form>
