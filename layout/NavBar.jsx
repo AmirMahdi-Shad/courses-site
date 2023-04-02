@@ -17,7 +17,7 @@ const NavBar = () => {
               alt=''
             />
           </button>
-          <h2 className='ml-2 text-2xl font-bold'>Edujar</h2>
+          <h2 className='ml-2 text-2xl text-white font-bold'>Edujar</h2>
         </div>
         {/* items */}
         <ul className='flex items-center justify-around  w-full'>

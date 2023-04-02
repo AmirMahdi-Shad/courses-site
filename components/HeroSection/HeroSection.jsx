@@ -8,7 +8,7 @@ const HeroSection = () => {
           <span className='text-[#BDA0FF]'>Best courses </span>
           <span className='text-[#fff] '>
             are waiting to enrich your skill
-            <span className='absolute left-[20vw]  bottom-1/2 flex gap-6'>
+            <span className='absolute left-[20vw]  bottom-[45%] flex gap-6'>
               <Image src='/images/Star.png' width='50' height='50' alt='' />
               <Image src='/images/Star.png' width='50' height='50' alt='' />
               <Image src='/images/Star.png' width='50' height='50' alt='' />
@@ -30,11 +30,11 @@ const HeroSection = () => {
           src={`/images/search.png`}
           width='30'
           height='30'
-          className='absolute left-0 top-9 mx-4'
+          className='absolute left-0 top-5 mx-4'
           alt=''
         />
 
-        <button className='px-14 py-7 bg-[#7F56D9] rounded-full text-xl absolute top-2 right-36'>
+        <button className='px-10 py-3 bg-[#7F56D9] rounded-full text-xl absolute top-2 right-28'>
           Explore
         </button>
       </form>

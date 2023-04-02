@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import DotFrames from "./dot_frame.svg"
-
 export default function FooterJoinCart(){
     return (<div id="footer-join-carts" className="bg-[#37265D6E] py-[5.2vw] px-[15.62vw] relative">
         <div className="absolute w-[15.625vw] h-[15.729vw] top-[4.28vw] left-[-3.59vw]">
-            <Image src={DotFrames.src} fill alt={'dot bg'} />
+            <Image src={'/assets/image/footer-join-cart/dot_frame.svg'} fill alt={'dot bg'} />
         </div>
         <div className="absolute w-[15.625vw] h-[15.729vw] top-[4.28vw] right-[-3.59vw]">
-            <Image src={DotFrames.src} fill alt={'dot bg'} />
+            <Image src={'/assets/image/footer-join-cart/dot_frame.svg'} fill alt={'dot bg'} />
         </div>
         <div className="flex gap-[8.75vw] w-full">
             <div id="inavation-text" className="w-[39.68vw]">
