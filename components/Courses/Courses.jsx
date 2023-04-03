@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { useState } from "react";
+import FillBtn from "../utils/FillBtn";
 
 const Courses = () => {
   return (
-    <section className=' w-full px-[7.8vw] py-[2.5vw]'>
+    <section className=' w-full px-[7.8vw] py-[2.5vw] mt-[3vw]'>
       <div className='flex justify-between items-center '>
         <h3 className='text-[3.6vw] mt-[1.8vw] font-caladea font-[700]'>
           <span className='text-[#fff]'>Popular </span>
@@ -91,6 +91,12 @@ const Courses = () => {
             </div>
           );
         })}
+      </div>
+      <div className='flex justify-center items-center w-full mt-[3vw]'>
+        <FillBtn
+          text='Explore all Courses'
+          className='font-inter font-semibold '
+        />
       </div>
     </section>
   );
