@@ -55,7 +55,7 @@ const HeroSection = () => {
       />
       <Image
         src='/images/heroicon.png'
-        className='absolute w-[31.73vw] h-[42.340625vw] left-[57.08%] right-[11.19%] top-[16%] bottom-[84.65%]'
+        className='absolute w-[31.73vw] h-[42.340625vw] left-[57.08%] right-[11.19%] top-[16%] bottom-[84.65%] z-50'
         width='820'
         height='820'
         alt=''
