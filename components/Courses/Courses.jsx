@@ -27,7 +27,7 @@ const Courses = () => {
                 />
                 <label
                   htmlFor={index}
-                  className={`w-[6.04vw] h-[1.45vw] text-center  px-[2vw] py-[1.45vw] rounded-full cursor-pointer hover:bg-[#7f56d98a] transition-all  ${
+                  className={`w-[6.04vw] h-[1.45vw] text-center text-white  px-[2vw] py-[1.45vw] rounded-full cursor-pointer hover:bg-[#7f56d98a] transition-all  ${
                     index === 0 && "bg-[#7F56D9]"
                   }`}
                 >
