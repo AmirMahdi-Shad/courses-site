@@ -6,7 +6,7 @@ const Partners = () => {
   return (
     <>
       <div className='w-full flex justify-center items-center p-5 mt-[2vw] relative'>
-        <h3 className='text-[1.5vw] font-bold text-[#D9ECFF] font-inter absolute top-[0vw] left-[12.4vw] '>
+        <h3 className='text-[1.5vw] font-bold text-[#D9ECFF] font-inter absolute top-[0vw] left-[8vw] '>
           Our Course Partners
         </h3>
         <div className='absolute flex justify- items-center w-[84vw]  px-[4vw]'>
