@@ -1,5 +1,8 @@
 import Image from "next/image";
 import {PhoneIcon,EnvelopeIcon,MapPinIcon} from '@heroicons/react/24/solid'
+import { BsFacebook,BsTwitter } from 'react-icons/bs';
+import { RiInstagramFill } from 'react-icons/ri';
+
 const Footer = () => {
   return (
     <footer className='pt-[5.2vw] pb-[3vw] px-[7vw] w-full h-full flex flex-col justify-center relative font-caladea'>
@@ -48,8 +51,9 @@ const Footer = () => {
           <span><MapPinIcon className="w-[20px] inline "/>  2715 Ash Dr. San Jose, South Dakota 83475</span>
         </div>
       </div>
-      <div className='absolute bottom-0 flex justify-between items-center p-[0.83vw] font-inter text-[#B0B0D1]'>
+      <div className=' flex justify-between items-center p-[0.83vw] font-inter text-[#B0B0D1]'>
         <span>Copyright 2023 | All Rights Reserved</span>
+        <span className="flex"><BsFacebook/> <BsTwitter/> <RiInstagramFill/></span>
       </div>
     </footer>
   );
