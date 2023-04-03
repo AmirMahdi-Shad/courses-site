@@ -30,7 +30,7 @@ const HeroSection = () => {
           src={`/images/search.png`}
           width='30'
           height='30'
-          className='absolute left-0 top-[1.75vw] mx-[0.83vw]'
+          className='absolute left-0 top-[1.49vw] mx-[0.83vw]'
           alt=''
         />
 
